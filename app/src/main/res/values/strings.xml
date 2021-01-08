@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Eathaca</string>
+    <string name="title_food">Food</string>
+    <string name="title_community">Community</string>
+    <string name="title_recipes">Recipes</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in1">Already Have an Account? Login</string>
+    <string name="action_registration">Register</string>
+    <string name="bomb_restart">Boom Restart</string>
+    <string name="login">Login Screen</string>
+    <string name="register">Register Screen</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_invalid_email">Invalid emil format</string>
+    <string name="error_invalid_password">At least 4 characters</string>
+    <string name="hint_accountType">Account Type:</string>
+    <string name="FarmOwner">Farm Owner</string>
+    <string name="regular">Regular User</string>
+</resources>

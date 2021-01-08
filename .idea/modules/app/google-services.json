@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "649784779789",
+    "firebase_url": "https://eathaca.firebaseio.com",
+    "project_id": "eathaca",
+    "storage_bucket": "eathaca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:649784779789:android:c0b65e588c03dfbe3be144",
+        "android_client_info": {
+          "package_name": "com.example.eathaca"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "649784779789-948ef3gr5g6ubvfip2mqm650v7ln9b8b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.eathaca",
+            "certificate_hash": "06013df0f8f0baebdeeebda25397462d147c057a"
+          }
+        },
+        {
+          "client_id": "649784779789-vk22v9rvnjun08gmcvdn658vs4fsrk2r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzJxLnSjP7fuK9V2O1N1pyPKFinUYXpIE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "649784779789-vk22v9rvnjun08gmcvdn658vs4fsrk2r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

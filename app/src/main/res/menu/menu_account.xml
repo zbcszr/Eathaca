@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+
+    <item
+
+        android:id="@+id/action_logOff"
+        android:layout_width="match_parent"
+        android:icon="@android:drawable/ic_menu_revert"
+        android:orderInCategory="102"
+        android:visible="true"
+        android:title="Log off"
+        app:showAsAction="always" />
+
+    <item
+
+        android:id="@+id/action_profile"
+        android:layout_width="match_parent"
+        android:icon="@android:drawable/ic_menu_revert"
+        android:orderInCategory="102"
+        android:visible="true"
+        android:title="Account Information"
+        app:showAsAction="always" />
+
+</menu>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@null"
+    >
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        app:cardCornerRadius="6dp"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:id="@+id/titleLayout"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:orientation="vertical"
+                android:gravity="center_vertical"
+                android:background="@color/colorSecondary">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Recipe Search"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    android:layout_marginStart="10dp"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:background="#ffffff"
+                android:layout_margin="20dp"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select Ingredients From Your Own Groceries:"
+                android:textColor="#80000000"
+                android:textSize="20sp"
+                android:paddingBottom="10dp"/>
+
+
+                <CheckBox
+                    android:id="@+id/garlic_radio_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Garlic"
+                    android:textAppearance="@style/TextAppearance.Design.Counter"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="20sp" />
+                <CheckBox
+                    android:id="@+id/potato_radio_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="Potato"
+                    android:textAppearance="@style/TextAppearance.Design.Counter"
+                    android:textColor="@color/colorAccent"
+
+                    android:textSize="20sp" />
+                <CheckBox
+                    android:id="@+id/tomato_radio_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tomato"
+
+                    android:textAppearance="@style/TextAppearance.Design.Counter"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="20sp" />
+                <CheckBox
+                    android:id="@+id/pepper_radio_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="Pepper"
+                    android:textAppearance="@style/TextAppearance.Design.Counter"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="20sp" />
+                <CheckBox
+                    android:id="@+id/beef_radio_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Beef"
+
+                    android:textAppearance="@style/TextAppearance.Design.Counter"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="20sp" />
+                <CheckBox
+                    android:id="@+id/egg_radio_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Egg"
+
+                    android:layout_marginBottom="10dp"
+                    android:textAppearance="@style/TextAppearance.Design.Counter"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/search"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:text="Search"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="16dp"
+                    android:paddingStart="200dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

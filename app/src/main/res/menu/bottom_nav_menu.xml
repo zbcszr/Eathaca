@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_food"
+        android:icon="@drawable/ic_bottomnav_food"
+        android:title="@string/title_food" />
+
+    <item
+        android:id="@+id/navigation_community"
+        android:icon="@drawable/ic_bottomnav_community"
+        android:title="@string/title_community" />
+
+    <item
+        android:id="@+id/navigation_recipes"
+        android:icon="@drawable/ic_bottomnav_recipe"
+        android:title="@string/title_recipes" />
+
+</menu>

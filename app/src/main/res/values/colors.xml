@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#52a49d</color>
+    <color name="colorPrimaryDark">#136f63</color>
+    <color name="colorAccent">#ce4257</color>
+    <color name="colorSecondary">#e76e54</color>
+
+    <array name="progress_gradient">
+        <item>#52a49d</item>
+        <item>#f4a261</item>
+        <item>#ce4257</item>
+    </array>
+
+</resources>
