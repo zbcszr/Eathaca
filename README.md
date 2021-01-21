@@ -11,8 +11,9 @@ Therefore, we aim to develop an Android app that helps students efficiently turn
 In our app, we would like to keep track of the freshness of the food, provide customized recipes that give a straightforward demonstration of old and new ingredients needed, and construct a platform for local farms to advertise their new seasonal products. 
 
 ## App Screenshots
+video demo
 [![demo](http://img.youtube.com/vi/sxuVO2prOVY/0.jpg)](https://www.youtube.com/watch?v=sqNF9m8wi18 "demo")
-
+screenshots
 ![alt text](imgs/img1.jpg)
 ![alt text](imgs/img2.jpg)
 ![alt text](imgs/img3.jpg)
